@@ -1,7 +1,6 @@
 #!/bin/bash
 
-
-YEARS=$(cat years.txt)
+YEARS=$(cat ../data/years.txt)
 for YEAR in $YEARS
 do
 	echo "$YEAR"
